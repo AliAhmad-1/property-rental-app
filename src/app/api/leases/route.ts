@@ -18,12 +18,10 @@ export async function POST(req: NextRequest) {
 
   const { unitId, tenantId, startDate, endDate, monthlyRentSen, depositSen } = body
 
-  // Validate input
   if (!unitId || !tenantId || !startDate || !endDate) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
   }
 
-  // Validate billing
   let schedule
   try {
     schedule = generateSchedule({ startDate, endDate, monthlyRentSen, depositSen })
@@ -38,21 +36,21 @@ export async function POST(req: NextRequest) {
   const tenant = await prisma.tenant.findFirst({ where: { id: tenantId, orgId: auth.orgId } })
   if (!tenant) return NextResponse.json({ error: 'Not found' }, { status: 404 })
 
-  // Check for overlapping leases on the same unit (inclusive dates)
-  const overlap = await prisma.lease.findFirst({
-    where: {
-      unitId,
-      startDate: { lte: new Date(endDate) },
-      endDate:   { gte: new Date(startDate) },
-    },
-  })
-  if (overlap) {
-    return NextResponse.json({ error: 'Lease overlaps an existing lease on this unit' }, { status: 409 })
-  }
-
-  // Create lease + invoices atomically
   try {
     const lease = await prisma.$transaction(async (tx) => {
+      // Advisory lock per unit — prevents concurrent overlap on the same unit
+      await tx.$executeRaw`SELECT pg_advisory_xact_lock(hashtext(${unitId}))`
+
+      // Re-check overlap inside the transaction
+      const overlap = await tx.lease.findFirst({
+        where: {
+          unitId,
+          startDate: { lte: new Date(endDate) },
+          endDate:   { gte: new Date(startDate) },
+        },
+      })
+      if (overlap) throw { code: 'OVERLAP' }
+
       const l = await tx.lease.create({
         data: {
           orgId: auth.orgId!,
@@ -64,6 +62,7 @@ export async function POST(req: NextRequest) {
           depositSen:     BigInt(depositSen),
         },
       })
+
       await tx.invoice.createMany({
         data: schedule.map(inv => ({
           orgId:       auth.orgId!,
@@ -76,6 +75,7 @@ export async function POST(req: NextRequest) {
           amountSen:   BigInt(inv.amountSen),
         })),
       })
+
       await tx.auditLog.create({
         data: {
           orgId:    auth.orgId!,
@@ -85,12 +85,19 @@ export async function POST(req: NextRequest) {
           details:  { unitId, tenantId, startDate, endDate },
         },
       })
+
       return l
     })
+
     return NextResponse.json({ id: lease.id }, { status: 201 })
+
   } catch (e: unknown) {
+    const code = (e as { code?: string }).code
+    if (code === 'OVERLAP') {
+      return NextResponse.json({ error: 'Lease overlaps an existing lease on this unit' }, { status: 409 })
+    }
     const msg = (e as Error).message ?? ''
-    if (msg.includes('unique') || msg.includes('overlap') || msg.includes('exclusion') || msg.includes('leases_no_overlap')) {
+    if (msg.includes('unique') || msg.includes('exclusion')) {
       return NextResponse.json({ error: 'Lease overlaps an existing lease on this unit' }, { status: 409 })
     }
     throw e

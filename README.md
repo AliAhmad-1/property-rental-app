@@ -46,6 +46,7 @@ GATEWAY_X_SIGNATURE_KEY=local_gateway_secret \
 - ✅ Storage bucket `payment-slips` with org-scoped upload/read policies
 - ✅ Seed script (`npm run seed`) creating all orgs, users, leases and payments
 - ✅ HTTP API: all 8 endpoints (leases, payments, approve/reject/void, gateway-bills, collections, webhook)
+- ✅ Concurrent lease creation protected with `pg_advisory_xact_lock` per unit
 - ✅ Collections report grouped by Malaysia timezone
 - ✅ Gateway webhook with HMAC-SHA256 signature, idempotency, and row-level lock for concurrency
 - ✅ Authorization: Bearer token support for API testing
@@ -65,7 +66,7 @@ GATEWAY_X_SIGNATURE_KEY=local_gateway_secret \
 - ⚠️ Realtime updates on tenant portal (bonus feature)
 - ⚠️ Unit tests for `lib/billing.ts` (bonus feature)
 - ⚠️ Server-side search and pagination for leases list (bonus feature)
-- ⚠️ Create-lease form live schedule preview is implemented but bonus features like animated transitions are not
+- ⚠️ Create-lease form has live schedule preview (bonus feature — implemented)
 
 ## Known Issues
 
