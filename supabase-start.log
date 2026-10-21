@@ -1,0 +1,713 @@
+v2.197.0: Pulling from supabase/gotrue
+55afa1ecc21d: Pulling fs layer
+71eb50013731: Pulling fs layer
+74c409e3506a: Pulling fs layer
+e5d190db8191: Pulling fs layer
+f30f4fcb85f4: Pulling fs layer
+c0cb7126d877: Pulling fs layer
+e5d190db8191: Waiting
+f30f4fcb85f4: Waiting
+c0cb7126d877: Waiting
+1.53.0: Pulling from supabase/logflare
+119d43eec815: Pulling fs layer
+c24bd21aa3de: Pulling fs layer
+939b8a7b4a2d: Pulling fs layer
+b929505412f3: Pulling fs layer
+053e99c0c4dc: Pulling fs layer
+11cb06d6239f: Pulling fs layer
+cc4159e5a4f8: Pulling fs layer
+237c3da62b35: Pulling fs layer
+939b8a7b4a2d: Waiting
+b929505412f3: Waiting
+053e99c0c4dc: Waiting
+119d43eec815: Waiting
+237c3da62b35: Waiting
+11cb06d6239f: Waiting
+c24bd21aa3de: Waiting
+cc4159e5a4f8: Waiting
+4f4fb700ef54: Pulling fs layer
+0a5cbc505071: Pulling fs layer
+4f4fb700ef54: Waiting
+0a5cbc505071: Waiting
+0.58.0-alpine: Pulling from supabase/vector
+55afa1ecc21d: Pulling fs layer
+921bfecda4c1: Pulling fs layer
+80af27af8935: Pulling fs layer
+30fdcf1539bd: Pulling fs layer
+7c115bed1203: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+921bfecda4c1: Waiting
+7c115bed1203: Waiting
+4f4fb700ef54: Waiting
+80af27af8935: Waiting
+30fdcf1539bd: Waiting
+v2.143.4: Pulling from supabase/realtime
+062e450697fa: Pulling fs layer
+aadc1df55248: Pulling fs layer
+b470f3a22f61: Pulling fs layer
+7b69c108b62c: Pulling fs layer
+2f8dc9fd16f0: Pulling fs layer
+e7e8db2397d8: Pulling fs layer
+2f95f9f41a30: Pulling fs layer
+32b7ef0c5fea: Pulling fs layer
+115059bab117: Pulling fs layer
+52182eb33a33: Pulling fs layer
+57608cb49d3f: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+062e450697fa: Waiting
+b470f3a22f61: Waiting
+7b69c108b62c: Waiting
+2f8dc9fd16f0: Waiting
+2f95f9f41a30: Waiting
+e7e8db2397d8: Waiting
+32b7ef0c5fea: Waiting
+57608cb49d3f: Waiting
+4f4fb700ef54: Waiting
+aadc1df55248: Waiting
+115059bab117: Waiting
+52182eb33a33: Waiting
+v1.82.1: Pulling from supabase/storage-api
+v0.100.0: Pulling from supabase/postgres-meta
+d0c1d894c237: Pulling fs layer
+f0bff0b17bb6: Pulling fs layer
+bf5074c0b7fa: Pulling fs layer
+76bc8d85aed0: Pulling fs layer
+8039b21a00ac: Pulling fs layer
+0c91f59dd719: Pulling fs layer
+40c8d110c258: Pulling fs layer
+53bfd3d9a134: Pulling fs layer
+76a88d62761c: Pulling fs layer
+d0c1d894c237: Waiting
+bf5074c0b7fa: Waiting
+76bc8d85aed0: Waiting
+8039b21a00ac: Waiting
+0c91f59dd719: Waiting
+f0bff0b17bb6: Waiting
+40c8d110c258: Waiting
+53bfd3d9a134: Waiting
+2f182e3dfc47: Pulling fs layer
+122b4cfbe03f: Pulling fs layer
+76a88d62761c: Waiting
+2f182e3dfc47: Waiting
+601da60d4a18: Pulling fs layer
+e6a206e9749c: Pulling fs layer
+d5ac605a5fdb: Pulling fs layer
+122b4cfbe03f: Waiting
+601da60d4a18: Waiting
+e6a206e9749c: Waiting
+d5ac605a5fdb: Waiting
+7fd1ebe418b5: Pulling fs layer
+f0400f4b55b0: Pulling fs layer
+d22c69a95cf4: Pulling fs layer
+2cfab517365c: Pulling fs layer
+a8de9fa05220: Pulling fs layer
+3d7229f68518: Pulling fs layer
+d22c69a95cf4: Waiting
+2cfab517365c: Waiting
+a8de9fa05220: Waiting
+7fd1ebe418b5: Waiting
+f0400f4b55b0: Waiting
+86db7dae1346: Pulling fs layer
+ae5d6c6b373f: Pulling fs layer
+3d7229f68518: Waiting
+6de2243f7511: Pulling fs layer
+c8706a120d79: Pulling fs layer
+ae5d6c6b373f: Waiting
+6de2243f7511: Waiting
+c8706a120d79: Waiting
+86db7dae1346: Waiting
+17.11.0.004: Pulling from supabase/postgres
+d0c1d894c237: Pulling fs layer
+2a7fe997b3bc: Pulling fs layer
+a089d1f2d97d: Pulling fs layer
+b594b09cdd92: Pulling fs layer
+ac0658ef7013: Pulling fs layer
+61cdca7212db: Pulling fs layer
+c7702d9346eb: Pulling fs layer
+1af9995b8d71: Pulling fs layer
+2f8950e7369c: Pulling fs layer
+f4c8c0988961: Pulling fs layer
+b72d0b0c7819: Pulling fs layer
+887d4dcfbb60: Pulling fs layer
+a089d1f2d97d: Waiting
+b4770aa5855a: Pulling fs layer
+b594b09cdd92: Waiting
+f48c9b774cf3: Pulling fs layer
+ac0658ef7013: Waiting
+031bc7c39c03: Pulling fs layer
+61cdca7212db: Waiting
+532d14cf7b90: Pulling fs layer
+c7702d9346eb: Waiting
+d0b84d5f07f5: Pulling fs layer
+1af9995b8d71: Waiting
+2f8950e7369c: Waiting
+f4c8c0988961: Waiting
+b72d0b0c7819: Waiting
+887d4dcfbb60: Waiting
+b4770aa5855a: Waiting
+d0c1d894c237: Waiting
+f48c9b774cf3: Waiting
+2271b8d67cdb: Pulling fs layer
+031bc7c39c03: Waiting
+d0b84d5f07f5: Waiting
+532d14cf7b90: Waiting
+2a7fe997b3bc: Waiting
+92c57cef4d95: Pulling fs layer
+9bad77f51394: Pulling fs layer
+2271b8d67cdb: Waiting
+92c57cef4d95: Waiting
+6d07fafc16fc: Pulling fs layer
+9bad77f51394: Waiting
+02b1eb22dea5: Pulling fs layer
+6d07fafc16fc: Waiting
+95e2e129052b: Pulling fs layer
+3bc958d77632: Pulling fs layer
+02b1eb22dea5: Waiting
+95e2e129052b: Waiting
+c91d81325bd0: Pulling fs layer
+3bc958d77632: Waiting
+434c95230705: Pulling fs layer
+c91d81325bd0: Waiting
+4bc1415e9b24: Pulling fs layer
+8d0d2729c399: Pulling fs layer
+0b67f6a8a496: Pulling fs layer
+434c95230705: Waiting
+4bc1415e9b24: Waiting
+0b67f6a8a496: Waiting
+2026.10.12-sha-3699278: Pulling from supabase/studio
+7fd1ebe418b5: Pulling fs layer
+f0400f4b55b0: Pulling fs layer
+d22c69a95cf4: Pulling fs layer
+2cfab517365c: Pulling fs layer
+a8de9fa05220: Pulling fs layer
+4fa31b6b4986: Pulling fs layer
+8e5c9597c72f: Pulling fs layer
+69f18b263ee6: Pulling fs layer
+64d955bbedda: Pulling fs layer
+f0400f4b55b0: Waiting
+d22c69a95cf4: Waiting
+2cfab517365c: Waiting
+a8de9fa05220: Waiting
+4fa31b6b4986: Waiting
+7fd1ebe418b5: Waiting
+8e5c9597c72f: Waiting
+69f18b263ee6: Waiting
+64d955bbedda: Waiting
+v1.77.4: Pulling from supabase/edge-runtime
+774043ccc8cc: Pulling fs layer
+8a4221b43423: Pulling fs layer
+6b96467f84f7: Pulling fs layer
+298a48d0e2b6: Pulling fs layer
+774043ccc8cc: Waiting
+11f138902885: Pulling fs layer
+8a4221b43423: Waiting
+6b96467f84f7: Waiting
+298a48d0e2b6: Waiting
+a9ac7aa23d56: Pulling fs layer
+11f138902885: Waiting
+a9ac7aa23d56: Waiting
+71eb50013731: Verifying Checksum
+71eb50013731: Download complete
+74c409e3506a: Verifying Checksum
+74c409e3506a: Download complete
+f30f4fcb85f4: Verifying Checksum
+f30f4fcb85f4: Download complete
+c0cb7126d877: Download complete
+55afa1ecc21d: 55afa1ecc21d: Verifying Checksum
+55afa1ecc21d: Download complete
+Verifying Checksum
+55afa1ecc21d: Download complete
+55afa1ecc21d: Pull complete
+55afa1ecc21d: Pull complete
+71eb50013731: Pull complete
+74c409e3506a: Pull complete
+c24bd21aa3de: Retrying in 5 seconds
+e5d190db8191: Retrying in 5 seconds
+119d43eec815: Retrying in 5 seconds
+c24bd21aa3de: Retrying in 4 seconds
+e5d190db8191: Retrying in 4 seconds
+119d43eec815: Retrying in 4 seconds
+c24bd21aa3de: Retrying in 3 seconds
+e5d190db8191: Retrying in 3 seconds
+119d43eec815: Retrying in 3 seconds
+c24bd21aa3de: e5d190db8191: Retrying in 2 seconds
+Retrying in 2 seconds
+119d43eec815: Retrying in 2 seconds
+e5d190db8191: Retrying in 1 second
+c24bd21aa3de: Retrying in 1 second
+119d43eec815: Retrying in 1 second
+e5d190db8191: Retrying in 10 seconds
+e5d190db8191: Retrying in 9 seconds
+e5d190db8191: Retrying in 8 seconds
+e5d190db8191: Retrying in 7 seconds
+e5d190db8191: Retrying in 6 seconds
+e5d190db8191: Retrying in 5 seconds
+e5d190db8191: Retrying in 4 seconds
+e5d190db8191: Retrying in 3 seconds
+e5d190db8191: Retrying in 2 seconds
+e5d190db8191: Retrying in 1 second
+c24bd21aa3de: Retrying in 10 seconds
+c24bd21aa3de: Retrying in 9 seconds
+c24bd21aa3de: Retrying in 8 seconds
+c24bd21aa3de: Retrying in 7 seconds
+c24bd21aa3de: Retrying in 6 seconds
+c24bd21aa3de: Retrying in 5 seconds
+c24bd21aa3de: Retrying in 4 seconds
+c24bd21aa3de: Retrying in 3 seconds
+c24bd21aa3de: Retrying in 2 seconds
+c24bd21aa3de: Retrying in 1 second
+c24bd21aa3de: Retrying in 15 seconds
+119d43eec815: Retrying in 10 seconds
+e5d190db8191: Retrying in 15 seconds
+c24bd21aa3de: Retrying in 14 seconds
+119d43eec815: Retrying in 9 seconds
+e5d190db8191: Retrying in 14 seconds
+c24bd21aa3de: Retrying in 13 seconds
+119d43eec815: Retrying in 8 seconds
+e5d190db8191: Retrying in 13 seconds
+c24bd21aa3de: Retrying in 12 seconds
+119d43eec815: Retrying in 7 seconds
+e5d190db8191: Retrying in 12 seconds
+c24bd21aa3de: Retrying in 11 seconds
+119d43eec815: Retrying in 6 seconds
+e5d190db8191: Retrying in 11 seconds
+c24bd21aa3de: Retrying in 10 seconds
+119d43eec815: Retrying in 5 seconds
+e5d190db8191: Retrying in 10 seconds
+c24bd21aa3de: Retrying in 9 seconds
+119d43eec815: Retrying in 4 seconds
+e5d190db8191: Retrying in 9 seconds
+c24bd21aa3de: Retrying in 8 seconds
+119d43eec815: Retrying in 3 seconds
+e5d190db8191: Retrying in 8 seconds
+c24bd21aa3de: Retrying in 7 seconds
+119d43eec815: Retrying in 2 seconds
+e5d190db8191: Retrying in 7 seconds
+c24bd21aa3de: Retrying in 6 seconds
+119d43eec815: Retrying in 1 second
+e5d190db8191: Retrying in 6 seconds
+c24bd21aa3de: Retrying in 5 seconds
+e5d190db8191: Retrying in 5 seconds
+c24bd21aa3de: Retrying in 4 seconds
+e5d190db8191: Retrying in 4 seconds
+c24bd21aa3de: Retrying in 3 seconds
+e5d190db8191: Retrying in 3 seconds
+c24bd21aa3de: Retrying in 2 seconds
+e5d190db8191: Retrying in 2 seconds
+c24bd21aa3de: Retrying in 1 second
+e5d190db8191: Retrying in 1 second
+c24bd21aa3de: Verifying Checksum
+c24bd21aa3de: Download complete
+939b8a7b4a2d: Verifying Checksum
+939b8a7b4a2d: Download complete
+e5d190db8191: Verifying Checksum
+e5d190db8191: Download complete
+e5d190db8191: Pull complete
+f30f4fcb85f4: Pull complete
+c0cb7126d877: Pull complete
+Digest: sha256:1736a63078f5922b198c4cbe50f80ab9a2d3b54fe8b7b6cfb2e9dc5dbbc12c6b
+Status: Downloaded newer image for public.ecr.aws/supabase/gotrue:v2.197.0
+public.ecr.aws/supabase/gotrue:v2.197.0
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/gotrue:v2.197.0
+119d43eec815: Verifying Checksum
+119d43eec815: Download complete
+053e99c0c4dc: Verifying Checksum
+053e99c0c4dc: Download complete
+119d43eec815: Pull complete
+c24bd21aa3de: Pull complete
+939b8a7b4a2d: Pull complete
+cc4159e5a4f8: Retrying in 5 seconds
+11cb06d6239f: Retrying in 5 seconds
+b929505412f3: Retrying in 5 seconds
+cc4159e5a4f8: Retrying in 4 seconds
+11cb06d6239f: Retrying in 4 seconds
+b929505412f3: Retrying in 4 seconds
+cc4159e5a4f8: Retrying in 3 seconds
+11cb06d6239f: Retrying in 3 seconds
+b929505412f3: Retrying in 3 seconds
+cc4159e5a4f8: Retrying in 2 seconds
+11cb06d6239f: Retrying in 2 seconds
+b929505412f3: Retrying in 2 seconds
+cc4159e5a4f8: Retrying in 1 second
+11cb06d6239f: Retrying in 1 second
+b929505412f3: Retrying in 1 second
+cc4159e5a4f8: Retrying in 10 seconds
+11cb06d6239f: Retrying in 10 seconds
+b929505412f3: Retrying in 10 seconds
+cc4159e5a4f8: Retrying in 9 seconds
+11cb06d6239f: Retrying in 9 seconds
+b929505412f3: Retrying in 9 seconds
+b929505412f3: Retrying in 8 seconds
+11cb06d6239f: Retrying in 8 seconds
+cc4159e5a4f8: Retrying in 8 seconds
+cc4159e5a4f8: Retrying in 7 seconds
+b929505412f3: Retrying in 7 seconds
+11cb06d6239f: Retrying in 7 seconds
+b929505412f3: Retrying in 6 seconds
+11cb06d6239f: Retrying in 6 seconds
+cc4159e5a4f8: Retrying in 6 seconds
+11cb06d6239f: Retrying in 5 seconds
+b929505412f3: Retrying in 5 seconds
+cc4159e5a4f8: Retrying in 5 seconds
+cc4159e5a4f8: Retrying in 4 seconds
+b929505412f3: Retrying in 4 seconds
+11cb06d6239f: Retrying in 4 seconds
+cc4159e5a4f8: Retrying in 3 seconds
+b929505412f3: Retrying in 3 seconds
+11cb06d6239f: Retrying in 3 seconds
+cc4159e5a4f8: Retrying in 2 seconds
+b929505412f3: Retrying in 2 seconds
+11cb06d6239f: Retrying in 2 seconds
+cc4159e5a4f8: Retrying in 1 second
+b929505412f3: Retrying in 1 second
+11cb06d6239f: Retrying in 1 second
+cc4159e5a4f8: Verifying Checksum
+cc4159e5a4f8: Download complete
+11cb06d6239f: Verifying Checksum
+11cb06d6239f: Download complete
+237c3da62b35: Verifying Checksum
+237c3da62b35: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+0a5cbc505071: Verifying Checksum
+0a5cbc505071: Download complete
+80af27af8935: Retrying in 5 seconds
+80af27af8935: Retrying in 4 seconds
+80af27af8935: Retrying in 3 seconds
+80af27af8935: Retrying in 2 seconds
+80af27af8935: Retrying in 1 second
+80af27af8935: Retrying in 10 seconds
+80af27af8935: Retrying in 9 seconds
+80af27af8935: Retrying in 8 seconds
+80af27af8935: Retrying in 7 seconds
+80af27af8935: Retrying in 6 seconds
+80af27af8935: Retrying in 5 seconds
+80af27af8935: Retrying in 4 seconds
+80af27af8935: Retrying in 3 seconds
+80af27af8935: Retrying in 2 seconds
+80af27af8935: Retrying in 1 second
+80af27af8935: Retrying in 15 seconds
+80af27af8935: Retrying in 14 seconds
+80af27af8935: Retrying in 13 seconds
+80af27af8935: Retrying in 12 seconds
+80af27af8935: Retrying in 11 seconds
+80af27af8935: Retrying in 10 seconds
+80af27af8935: Retrying in 9 seconds
+80af27af8935: Retrying in 8 seconds
+80af27af8935: Retrying in 7 seconds
+80af27af8935: Retrying in 6 seconds
+80af27af8935: Retrying in 5 seconds
+80af27af8935: Retrying in 4 seconds
+80af27af8935: Retrying in 3 seconds
+80af27af8935: Retrying in 2 seconds
+80af27af8935: Retrying in 1 second
+b929505412f3: Retrying in 15 seconds
+921bfecda4c1: Retrying in 4 seconds
+b929505412f3: Retrying in 14 seconds
+921bfecda4c1: Retrying in 3 seconds
+b929505412f3: Retrying in 13 seconds
+921bfecda4c1: Retrying in 2 seconds
+b929505412f3: Retrying in 12 seconds
+921bfecda4c1: Retrying in 1 second
+b929505412f3: Retrying in 11 seconds
+b929505412f3: Retrying in 10 seconds
+b929505412f3: Retrying in 9 seconds
+b929505412f3: Retrying in 8 seconds
+b929505412f3: Retrying in 7 seconds
+b929505412f3: Retrying in 6 seconds
+b929505412f3: Retrying in 5 seconds
+b929505412f3: Retrying in 4 seconds
+b929505412f3: Retrying in 3 seconds
+b929505412f3: Retrying in 2 seconds
+921bfecda4c1: Verifying Checksum
+921bfecda4c1: Download complete
+b929505412f3: Retrying in 1 second
+921bfecda4c1: Pull complete
+30fdcf1539bd: Download complete
+7c115bed1203: Verifying Checksum
+7c115bed1203: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+b929505412f3: Verifying Checksum
+b929505412f3: Download complete
+b929505412f3: Pull complete
+053e99c0c4dc: Pull complete
+11cb06d6239f: Pull complete
+cc4159e5a4f8: Pull complete
+237c3da62b35: Pull complete
+4f4fb700ef54: Pull complete
+0a5cbc505071: Pull complete
+Digest: sha256:9d9c8f8c462650b5a99789e1adc6906df85cfb15e2515a8a3b44953893434470
+Status: Downloaded newer image for public.ecr.aws/supabase/logflare:1.53.0
+public.ecr.aws/supabase/logflare:1.53.0
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/logflare:1.53.0
+062e450697fa: Verifying Checksum
+062e450697fa: Download complete
+062e450697fa: Pull complete
+80af27af8935: Verifying Checksum
+80af27af8935: Download complete
+80af27af8935: Pull complete
+30fdcf1539bd: Pull complete
+7c115bed1203: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:5dcf67db0ee378caa87f3395cb9484ebe3e97bb0334d119f2ac33116e00c5773
+Status: Downloaded newer image for public.ecr.aws/supabase/vector:0.58.0-alpine
+public.ecr.aws/supabase/vector:0.58.0-alpine
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/vector:0.58.0-alpine
+7b69c108b62c: Download complete
+2f8dc9fd16f0: Download complete
+b470f3a22f61: Verifying Checksum
+b470f3a22f61: Download complete
+e7e8db2397d8: Download complete
+32b7ef0c5fea: Verifying Checksum
+32b7ef0c5fea: Download complete
+115059bab117: Verifying Checksum
+115059bab117: Download complete
+2f95f9f41a30: Download complete
+57608cb49d3f: Verifying Checksum
+57608cb49d3f: Download complete
+4f4fb700ef54: Verifying Checksum
+4f4fb700ef54: Download complete
+d0c1d894c237: Download complete
+d0c1d894c237: Verifying Checksum
+d0c1d894c237: Download complete
+d0c1d894c237: Pull complete
+d0c1d894c237: Pull complete
+aadc1df55248: Verifying Checksum
+aadc1df55248: Download complete
+bf5074c0b7fa: Verifying Checksum
+bf5074c0b7fa: Download complete
+aadc1df55248: Pull complete
+b470f3a22f61: Pull complete
+7b69c108b62c: Pull complete
+2f8dc9fd16f0: Pull complete
+e7e8db2397d8: Pull complete
+2f95f9f41a30: Pull complete
+32b7ef0c5fea: Pull complete
+115059bab117: Pull complete
+76bc8d85aed0: Verifying Checksum
+76bc8d85aed0: Download complete
+52182eb33a33: Verifying Checksum
+52182eb33a33: Download complete
+0c91f59dd719: Download complete
+52182eb33a33: Pull complete
+57608cb49d3f: Pull complete
+4f4fb700ef54: Pull complete
+Digest: sha256:35e99d3f1cbba5aa5585e8ac3cf70ecc54909ee4aee0626effed93c60fb41439
+Status: Downloaded newer image for public.ecr.aws/supabase/realtime:v2.143.4
+public.ecr.aws/supabase/realtime:v2.143.4
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/realtime:v2.143.4
+40c8d110c258: Verifying Checksum
+40c8d110c258: Download complete
+53bfd3d9a134: Verifying Checksum
+53bfd3d9a134: Download complete
+76a88d62761c: Verifying Checksum
+76a88d62761c: Download complete
+2f182e3dfc47: Verifying Checksum
+2f182e3dfc47: Download complete
+f0bff0b17bb6: Verifying Checksum
+f0bff0b17bb6: Download complete
+f0bff0b17bb6: Pull complete
+bf5074c0b7fa: Pull complete
+76bc8d85aed0: Pull complete
+601da60d4a18: Verifying Checksum
+601da60d4a18: Download complete
+e6a206e9749c: Verifying Checksum
+e6a206e9749c: Download complete
+d5ac605a5fdb: Verifying Checksum
+d5ac605a5fdb: Download complete
+122b4cfbe03f: Download complete
+f0400f4b55b0: Verifying Checksum
+f0400f4b55b0: Download complete
+f0400f4b55b0: Verifying Checksum
+f0400f4b55b0: Download complete
+7fd1ebe418b5: Verifying Checksum
+7fd1ebe418b5: Download complete
+7fd1ebe418b5: Verifying Checksum
+7fd1ebe418b5: Download complete
+7fd1ebe418b5: Pull complete
+7fd1ebe418b5: Pull complete
+f0400f4b55b0: Pull complete
+f0400f4b55b0: Pull complete
+2cfab517365c: Verifying Checksum
+2cfab517365c: Download complete
+2cfab517365c: Download complete
+a8de9fa05220: Download complete
+a8de9fa05220: Verifying Checksum
+a8de9fa05220: Download complete
+3d7229f68518: Verifying Checksum
+3d7229f68518: Download complete
+86db7dae1346: Verifying Checksum
+86db7dae1346: Download complete
+8039b21a00ac: Verifying Checksum
+8039b21a00ac: Download complete
+6de2243f7511: Verifying Checksum
+6de2243f7511: Download complete
+8039b21a00ac: Pull complete
+0c91f59dd719: Pull complete
+40c8d110c258: Pull complete
+53bfd3d9a134: Pull complete
+76a88d62761c: Pull complete
+2f182e3dfc47: Pull complete
+c8706a120d79: Verifying Checksum
+c8706a120d79: Download complete
+2a7fe997b3bc: Download complete
+2a7fe997b3bc: Pull complete
+a089d1f2d97d: Verifying Checksum
+a089d1f2d97d: Download complete
+a089d1f2d97d: Pull complete
+122b4cfbe03f: Pull complete
+601da60d4a18: Pull complete
+e6a206e9749c: Pull complete
+d5ac605a5fdb: Pull complete
+Digest: sha256:ec2ad41411eac8fc2b769b4bb00d1af32ae37eca3745c15bdb329db27d218934
+Status: Downloaded newer image for public.ecr.aws/supabase/storage-api:v1.82.1
+public.ecr.aws/supabase/storage-api:v1.82.1
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/storage-api:v1.82.1
+d22c69a95cf4: Verifying Checksum
+d22c69a95cf4: Download complete
+d22c69a95cf4: Download complete
+d22c69a95cf4: Pull complete
+d22c69a95cf4: Pull complete
+2cfab517365c: Pull complete
+2cfab517365c: Pull complete
+a8de9fa05220: Pull complete
+a8de9fa05220: Pull complete
+3d7229f68518: Pull complete
+ac0658ef7013: Download complete
+86db7dae1346: Pull complete
+61cdca7212db: Download complete
+c7702d9346eb: Verifying Checksum
+c7702d9346eb: Download complete
+1af9995b8d71: Verifying Checksum
+1af9995b8d71: Download complete
+2f8950e7369c: Download complete
+ae5d6c6b373f: Verifying Checksum
+ae5d6c6b373f: Download complete
+f4c8c0988961: Verifying Checksum
+f4c8c0988961: Download complete
+b72d0b0c7819: Download complete
+887d4dcfbb60: Verifying Checksum
+887d4dcfbb60: Download complete
+b4770aa5855a: Verifying Checksum
+b4770aa5855a: Download complete
+f48c9b774cf3: Verifying Checksum
+f48c9b774cf3: Download complete
+031bc7c39c03: Download complete
+ae5d6c6b373f: Pull complete
+6de2243f7511: Pull complete
+c8706a120d79: Pull complete
+Digest: sha256:145325b7e39f8ef4931d6e8cfd3f6f4d655de09d72a2ccc96d9513542c2202bd
+Status: Downloaded newer image for public.ecr.aws/supabase/postgres-meta:v0.100.0
+public.ecr.aws/supabase/postgres-meta:v0.100.0
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/postgres-meta:v0.100.0
+532d14cf7b90: Download complete
+2271b8d67cdb: Download complete
+d0b84d5f07f5: Verifying Checksum
+d0b84d5f07f5: Download complete
+92c57cef4d95: Verifying Checksum
+92c57cef4d95: Download complete
+9bad77f51394: Verifying Checksum
+6d07fafc16fc: Download complete
+02b1eb22dea5: Verifying Checksum
+02b1eb22dea5: Download complete
+95e2e129052b: Verifying Checksum
+95e2e129052b: Download complete
+3bc958d77632: Download complete
+434c95230705: Verifying Checksum
+434c95230705: Download complete
+c91d81325bd0: Download complete
+4bc1415e9b24: Verifying Checksum
+4bc1415e9b24: Download complete
+8d0d2729c399: Verifying Checksum
+8d0d2729c399: Download complete
+0b67f6a8a496: Verifying Checksum
+0b67f6a8a496: Download complete
+8e5c9597c72f: Verifying Checksum
+8e5c9597c72f: Download complete
+69f18b263ee6: Download complete
+4fa31b6b4986: Verifying Checksum
+4fa31b6b4986: Download complete
+64d955bbedda: Verifying Checksum
+64d955bbedda: Download complete
+4fa31b6b4986: Pull complete
+8e5c9597c72f: Pull complete
+69f18b263ee6: Pull complete
+64d955bbedda: Pull complete
+Digest: sha256:948770ec467f00e6ae34c35018ef7cb23d7b30eb806b42c2cc0d7bcfdcf8a7a8
+Status: Downloaded newer image for public.ecr.aws/supabase/studio:2026.10.12-sha-3699278
+public.ecr.aws/supabase/studio:2026.10.12-sha-3699278
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/studio:2026.10.12-sha-3699278
+774043ccc8cc: Verifying Checksum
+774043ccc8cc: Download complete
+6b96467f84f7: Verifying Checksum
+6b96467f84f7: Download complete
+774043ccc8cc: Pull complete
+8a4221b43423: Verifying Checksum
+8a4221b43423: Download complete
+8a4221b43423: Pull complete
+6b96467f84f7: Pull complete
+298a48d0e2b6: Download complete
+298a48d0e2b6: Pull complete
+a9ac7aa23d56: Verifying Checksum
+a9ac7aa23d56: Download complete
+b594b09cdd92: Verifying Checksum
+b594b09cdd92: Download complete
+b594b09cdd92: Pull complete
+ac0658ef7013: Pull complete
+61cdca7212db: Pull complete
+c7702d9346eb: Pull complete
+1af9995b8d71: Pull complete
+2f8950e7369c: Pull complete
+f4c8c0988961: Pull complete
+b72d0b0c7819: Pull complete
+887d4dcfbb60: Pull complete
+b4770aa5855a: Pull complete
+f48c9b774cf3: Pull complete
+031bc7c39c03: Pull complete
+532d14cf7b90: Pull complete
+d0b84d5f07f5: Pull complete
+2271b8d67cdb: Pull complete
+92c57cef4d95: Pull complete
+9bad77f51394: Pull complete
+6d07fafc16fc: Pull complete
+02b1eb22dea5: Pull complete
+95e2e129052b: Pull complete
+3bc958d77632: Pull complete
+c91d81325bd0: Pull complete
+434c95230705: Pull complete
+4bc1415e9b24: Pull complete
+8d0d2729c399: Pull complete
+0b67f6a8a496: Pull complete
+Digest: sha256:b15d862126dd2dac02da524696ccfde2dcce2ceaee0a58973b2727befe492706
+Status: Downloaded newer image for public.ecr.aws/supabase/postgres:17.11.0.004
+public.ecr.aws/supabase/postgres:17.11.0.004
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/postgres:17.11.0.004
+11f138902885: Download complete
+11f138902885: Pull complete
+a9ac7aa23d56: Pull complete
+Digest: sha256:ad45164b7548bf5820ed7be714789c17ac2865edce79a09cfb4c3756c3d365a8
+Status: Downloaded newer image for public.ecr.aws/supabase/edge-runtime:v1.77.4
+public.ecr.aws/supabase/edge-runtime:v1.77.4
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview public.ecr.aws/supabase/edge-runtime:v1.77.4
+Starting database...
+Stopping containers...
+{"_tag":"Error","error":{"code":"ContainerCreateError","message":"failed to create docker container: Error response from daemon: Conflict. The container name \"/supabase_db_property-rental-app\" is already in use by container \"62d77b95eedacfc371313910097ad1f36d8b458d4dcca6586ba49981d3394740\". You have to remove (or rename) that container to be able to reuse that name."}}
