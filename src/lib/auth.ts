@@ -19,7 +19,7 @@ export interface AuthContext {
  * Resolves the caller from a request.
  * Accepts both cookie sessions and Authorization: Bearer <token>.
  */
-export async function getAuthContext(req?: NextRequest): Promise<AuthContext | null> {
+export async function getAuthContext(): Promise<AuthContext | null> {
   const supabase = await createClient()
   const { data: { user } } = await supabase.auth.getUser()
   if (!user) return null

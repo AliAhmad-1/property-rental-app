@@ -7,7 +7,7 @@ export async function GET(
   req: NextRequest,
   { params }: { params: Promise<{ leaseId: string }> }
 ) {
-  const auth = await getAuthContext(req)
+  const auth = await getAuthContext()
   if (!auth) return unauthorized()
 
   const { leaseId } = await params

@@ -1,0 +1,4 @@
+-- Seed data is handled by `npm run seed` (seed.ts via tsx).
+-- This file exists to satisfy supabase/config.toml's sql_paths reference.
+-- It is intentionally empty because the seed script uses Prisma + Supabase Admin API
+-- to create auth users, which cannot be done from plain SQL.

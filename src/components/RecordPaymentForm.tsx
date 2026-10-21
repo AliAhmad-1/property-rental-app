@@ -16,10 +16,14 @@ export default function RecordPaymentForm({ leaseId, orgId, onSuccess }: Props) 
   const [amount, setAmount] = useState('')
   const [method, setMethod] = useState<'cash' | 'bank_transfer'>('cash')
   // Default receivedAt: current MYT time in datetime-local format.
-  // Set in useEffect to avoid SSR/hydration mismatch (clock-dependent value).
+  // Initial value '' is deterministic for SSR/hydration; the real value is
+  // set asynchronously after mount (no hydration mismatch, no sync setState).
   const [receivedAt, setReceivedAt] = useState('')
   useEffect(() => {
-    setReceivedAt(new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 16))
+    const id = setTimeout(() => {
+      setReceivedAt(new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 16))
+    }, 0)
+    return () => clearTimeout(id)
   }, [])
   const [slip, setSlip] = useState<File | null>(null)
   const [loading, setLoading] = useState(false)

@@ -120,7 +120,12 @@ export default function LeaseDetailPage() {
     setLoading(false)
   }, [leaseId])
 
-  useEffect(() => { load() }, [load])
+  // Defer the initial load one tick so setState isn't called synchronously
+  // inside the effect body (react-hooks/set-state-in-effect).
+  useEffect(() => {
+    const id = setTimeout(load, 0)
+    return () => clearTimeout(id)
+  }, [load])
 
   if (loading) return <Skeleton />
 

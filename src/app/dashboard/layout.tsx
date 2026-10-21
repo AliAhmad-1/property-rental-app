@@ -18,7 +18,6 @@ export default async function DashboardLayout({ children }: { children: React.Re
   if (!membership && !tenant) redirect('/login')
 
   const role = membership?.role ?? 'tenant'
-  const orgId = membership?.orgId ?? tenant?.orgId ?? ''
 
   return (
     <div className="flex min-h-screen flex-col">

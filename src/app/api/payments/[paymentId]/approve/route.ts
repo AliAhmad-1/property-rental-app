@@ -8,7 +8,7 @@ export async function POST(
   req: NextRequest,
   { params }: { params: Promise<{ paymentId: string }> }
 ) {
-  const auth = await getAuthContext(req)
+  const auth = await getAuthContext()
   if (!auth) return unauthorized()
   if (auth.role !== 'manager') return forbidden()
 

@@ -67,13 +67,14 @@ async function main() {
   ])
 
   // ── Units ──────────────────────────────────────────────────
-  const [unitA, unitB, unitC, unitD, unitKL1] = await Promise.all([
+  const units = await Promise.all([
     prisma.unit.create({ data: { orgId: northwind.id, name: 'A-12-3' } }),
     prisma.unit.create({ data: { orgId: northwind.id, name: 'B-05-1' } }),
     prisma.unit.create({ data: { orgId: northwind.id, name: 'C-01-7' } }),
-    prisma.unit.create({ data: { orgId: northwind.id, name: 'D-03-2' } }),
+    prisma.unit.create({ data: { orgId: northwind.id, name: 'D-03-2' } }), // intentionally unleased
     prisma.unit.create({ data: { orgId: beta.id,      name: 'KL-1'   } }),
   ])
+  const [unitA, unitB, unitC, , unitKL1] = units
 
   // ── Leases + Invoices ──────────────────────────────────────
   async function createLease(data: {
@@ -131,7 +132,7 @@ async function main() {
 
   // Payment 1: Cash RM 3,000 by manager (approved immediately)
   // received 2026-01-31 10:00 MYT = 2026-01-31T02:00:00Z
-  const p1 = await prisma.$transaction(async (tx) => {
+  await prisma.$transaction(async (tx) => {
     const payment = await tx.payment.create({
       data: {
         orgId:      northwind.id,

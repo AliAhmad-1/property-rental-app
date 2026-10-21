@@ -28,7 +28,8 @@ export default function PaymentActions({ paymentId, status, onDone }: Props) {
     if (!res.ok) {
       toast.error(data.error ?? 'Something went wrong')
     } else {
-      toast.success(`Payment ${action}d`)
+      const pastTense = action === 'approve' ? 'approved' : action === 'reject' ? 'rejected' : 'voided'
+      toast.success(`Payment ${pastTense}`)
       setDialog(null)
       setReason('')
       if (onDone) onDone()

@@ -4,7 +4,7 @@ import { getAuthContext, unauthorized, forbidden } from '@/lib/auth'
 import { generateSchedule } from '@/lib/billing'
 
 export async function POST(req: NextRequest) {
-  const auth = await getAuthContext(req)
+  const auth = await getAuthContext()
   if (!auth) return unauthorized()
   if (auth.role !== 'manager') return forbidden()
 

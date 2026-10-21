@@ -9,7 +9,7 @@ export async function POST(
   req: NextRequest,
   { params }: { params: Promise<{ leaseId: string }> }
 ) {
-  const auth = await getAuthContext(req)
+  const auth = await getAuthContext()
   if (!auth) return unauthorized()
   if (auth.role === 'tenant') return forbidden()
 

@@ -3,7 +3,7 @@ import { prisma } from '@/lib/prisma'
 import { getAuthContext, unauthorized, forbidden } from '@/lib/auth'
 
 export async function GET(req: NextRequest) {
-  const auth = await getAuthContext(req)
+  const auth = await getAuthContext()
   if (!auth) return unauthorized()
   if (auth.role === 'tenant') return forbidden()
 
@@ -11,7 +11,7 @@ export async function GET(req: NextRequest) {
   const from = searchParams.get('from')
   const to   = searchParams.get('to')
 
-  if (!from || !to || !/^\d{4}-\d{2}$/.test(from) || !/^\d{4}-\d{2}$/.test(to)) {
+  if (!from || !to || !/^\d{4}-(0[1-9]|1[0-2])$/.test(from) || !/^\d{4}-(0[1-9]|1[0-2])$/.test(to)) {
     return NextResponse.json({ error: 'Invalid range. Use YYYY-MM format.' }, { status: 400 })
   }
   if (from > to) {
